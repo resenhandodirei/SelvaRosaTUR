@@ -48,10 +48,11 @@ SelvaRosaTUR/
 
 ---
 
-### 1️⃣ Clonar o repositório
+### Clonar o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/SelvaRosaTUR.git
+```
 
 ### Acessar o diretório do projeto
 ```bash
@@ -60,3 +61,52 @@ cd frontend
 ```bash
 cd backend
 ```
+
+### Instale as dependências:
+```bash
+npm install
+```
+
+### Execute o projeto:
+```bash
+npm run start
+```
+
+⚠️ Configure o arquivo .env com suas variáveis de ambiente:
+
+```bash
+DATABASE_URL=postgresql://usuario:senha@localhost:5432/selvarosa
+JWT_SECRET=sua_chave_secreta
+```
+## 🔐 Autenticação
+- Login com email e senha
+
+- Geração de token JWT
+
+- Rotas protegidas no backend
+
+## 📌 Funcionalidades (em andamento)
+- Autenticação de usuários
+
+- Integração frontend ↔ backend
+
+- Painel de administração
+
+- Gerenciamento de roteiros turísticos
+
+- Reserva de atividades
+
+## 👩🏽‍💻 Contribuição
+- Faça um fork do projeto
+
+- Crie uma branch (git checkout -b feature/minha-feature)
+
+- Commit suas alterações (git commit -m 'Adiciona minha feature')
+
+- Push para a branch (git push origin feature/minha-feature)
+
+- Abra um Pull Request
+
+## 📄 Licença
+Este projeto está sob a licença MIT.
+Sinta-se livre para usar, modificar e contribuir!
